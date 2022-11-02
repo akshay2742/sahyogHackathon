@@ -62,3 +62,14 @@ ClosePopupLogin = () => {
     document.querySelector('#footer_form').style.opacity = '1';
     document.querySelector('.copyright').style.opacity = '1';
 }
+OpenSignup = () => {
+    document.querySelector('.register-form').style.display = 'block';
+    document.querySelector('.login-page').style.animation = 'bounceInLeft 1s';
+    document.querySelector('.login-form').style.display = 'none';
+}
+
+OpenSignin = () => {
+    document.querySelector('.login-form').style.display = 'block';
+    document.querySelector('.login-page').style.animation = 'bounceInLeft 1s';
+    document.querySelector('.register-form').style.display = 'none';
+}
