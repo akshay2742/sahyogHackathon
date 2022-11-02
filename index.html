@@ -125,13 +125,34 @@
                     </div>
                 </div>   
             </div>
+            <!--Login Form Pop-->
             <div class="popuplogin flex_column">
                 <div class="container popup_detailslogin">
                     <div class="popup_imagelogin">
                         <img src="./assets/Images/undraw_add_information_j2wg.svg">
                     </div>
                     <div class="popup_contentlogin flex_column">
+                        <!--Login Form-->
                         <div class="login-page">
+                            <div class="form">
+                              <form class="register-form">
+                                <input type="text" placeholder="name"/>
+                                <input type="password" placeholder="password"/>
+                                <input type="text" placeholder="email address"/>
+                                <button>create</button>
+                                <p class="message">Already registered? <a href="#" onclick="OpenSignin()">Sign In</a></p>
+                              </form>
+                              <form class="login-form">
+                                <input type="text" placeholder="username"/>
+                                <input type="password" placeholder="password"/>
+                                <button>login</button>
+                                <p class="message">Not registered? <a href="#" onclick="OpenSignup()">Create an account</a></p>
+                              </form>
+                            </div>
+                          </div>
+                        <!--Login Form-->
+                        <!--Signup Form-->
+                        <!-- <div class="login-page">
                             <div class="form">
                               <form class="register-form">
                                 <input type="text" placeholder="name"/>
@@ -144,10 +165,11 @@
                                 <input type="text" placeholder="username"/>
                                 <input type="password" placeholder="password"/>
                                 <button>login</button>
-                                <p class="message">Not registered? <a href="#">Create an account</a></p>
+                                <p class="message">Not registered? <a href="#" onclick="OpenSignup()">Create an account</a></p>
                               </form>
                             </div>
-                          </div>
+                          </div> -->
+                        <!--Signup Form-->
                         <div class="button_container">
                             <a href="#">
                                 <button class="button" onclick="ClosePopupLogin()">Close <i class="fa fa-times"></i></button>
@@ -156,6 +178,7 @@
                     </div>
                 </div>   
             </div>
+            <!--End of Login Form Pop-->
         </section>
         <!--Partners Section-->
         <section id="partners" class="flex_column">
